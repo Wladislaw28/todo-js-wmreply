@@ -1,5 +1,5 @@
 body {
-	background-color: #fafafa;
+	background-color: black;
 	color: #757575;
 	font-family: 'Consolas', Arial, Helvetica, sans-serif;
 	margin: 0;
@@ -23,8 +23,8 @@ button {
 	min-width: 64px;
 	padding: 0 16px;
 	display: inline-block;
-	font-family: "Consolas","Helvetica","Arial",sans-serif;
-	font-size: 14px;
+	font-family: "Franklin Gothic Medium",sans-serif;
+	font-size: 18px;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0;
@@ -94,14 +94,14 @@ header {
 	align-items: center;
 	padding: 0 1rem;
 	color: white;
-	background-color: #f0db4f;
+	background-color: #323330;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 header h1 {
 	display: inline-block;
-	color: #323330;
+	color: white;
 	margin: 1rem auto;
 }
 
