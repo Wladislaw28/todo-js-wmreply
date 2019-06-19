@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<title>TodoApp_WMReply.js</title>
-		<link rel="stylesheet" href="css/app.css">
 
-	</head>
+<head>
+	<link rel="stylesheet" type="text/css" href="src/index.css"/>
+</head>
 
-	<body>
-		<main id="app">
-			<header>
-				<h1>Todo.js</h1>
-			</header>
+<body>
+<div class="container">
+	<header>
+		<h1 class="link link--kukuri">ToDo Application</h1>
+	</header>
 
-			<ul id="todo-list">
-			</ul>
+	<input type="text" id="search_input" class="search_input"
+		   placeholder="Введите название таска для поиска">
 
-			<form id="todo-form">
-				<input id="add-input" type="text">
-				<button id="add-button" type="submit">Добавить</button>
-			</form>
-		</main>
+	<div id="task_list">
 
-		<script src="dist/main.js"></script>
-	</body>
+	</div>
+
+	<div class="form-with-button">
+		<button id="add_button" class="button add_button">Добавить</button>
+		<button id="clear_all_button" class="button clear_all_button">Удалить Completed Task</button>
+	</div>
+
+</div>
+<script src="dist/main.js"></script>
+</body>
+
 </html>
